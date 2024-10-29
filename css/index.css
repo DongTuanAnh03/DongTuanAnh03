@@ -1,0 +1,56 @@
+/* Định dạng chung */
+.container  {
+    width: 80%;           
+    max-width: 1000px;      
+    margin: 0 auto;           
+    padding: 20px;            
+    border: 1px solid black;  
+    border-radius: 10px;     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Bảng */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Nút */
+  .btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+  }
+  
+  /* Tìm kiếm */
+  .input-group {
+    width: 300px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      padding: 10px 5px;
+    }
+  }
